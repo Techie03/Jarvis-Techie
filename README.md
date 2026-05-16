@@ -184,12 +184,16 @@ npm start
 - Add advanced AI response generation
 - Improve voice recognition accuracy
 - Add text-to-speech responses
+- Toggle Light / Dark mode
 - Add chat history
 - Add user authentication
-- Add dark mode support
 - Add multilingual support
 - Improve mobile responsiveness
 - Add custom assistant commands
+- Add **visual analysis for user inputs**, where the assistant can generate charts, summaries, and insights based on user-provided prompts, job data, resumes, or search results.
+- Add **AI-powered job matching dashboard** to visually compare user skills with job requirements using match scores, missing skills, and recommended improvements.
+- Add **structured job result cards** displaying job title, company, location, required skills, source link, and application status for better job search tracking.
+- Add **job application analytics** with visual charts for saved, applied, shortlisted, rejected, and interview-stage applications.
 
 ## Author
 
