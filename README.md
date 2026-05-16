@@ -183,7 +183,7 @@ npm start
 
 - Add advanced AI response generation
 - Improve voice recognition accuracy
-- Add text-to-speech responses
+- Add automatic recognition of my voice like " Hey Siri "
 - Toggle Light / Dark mode
 - Add chat history
 - Add user authentication
