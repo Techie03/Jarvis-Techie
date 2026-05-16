@@ -194,6 +194,7 @@ npm start
 - Add **AI-powered job matching dashboard** to visually compare user skills with job requirements using match scores, missing skills, and recommended improvements.
 - Add **structured job result cards** displaying job title, company, location, required skills, source link, and application status for better job search tracking.
 - Add **job application analytics** with visual charts for saved, applied, shortlisted, rejected, and interview-stage applications.
+- Currently if the user ask for job listing it only shows limited companies like anthropic , OpenAI , Microsoft , Groq , ... later I gonna integrate with all the companies.
 
 ## Author
 
