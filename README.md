@@ -1,37 +1,202 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jarvis Techie
+
+Jarvis Techie is an AI-powered voice assistant web application built with Next.js and deployed on Vercel. The app provides a simple browser-based interface where users can interact with an AI assistant using voice-based input.
+
+## Live Demo
+
+[Visit Jarvis Techie](https://jarvis-techie.vercel.app/)
+
+## Overview
+
+Jarvis Techie is designed as a modern AI voice assistant that allows users to start listening through the browser and interact with an intelligent assistant. The project focuses on creating a lightweight, responsive, and beginner-friendly AI assistant experience using modern web technologies.
+
+This project demonstrates how voice interaction, frontend development, and AI-based assistant concepts can be combined into a simple web application.
+
+## Features
+
+- AI-powered assistant interface
+- Voice-based interaction
+- Start listening functionality
+- Responsive web design
+- Modern user interface
+- Built with Next.js
+- Developed using React and TypeScript
+- Styled with Tailwind CSS
+- Deployed on Vercel
+- Beginner-friendly project structure
+
+## Tech Stack
+
+- Next.js
+- React.js
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- Vercel
+- GitHub
+
+## Project Structure
+
+```text
+jarvis-vercel/
+├── public/
+├── src/
+├── .env.example
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+```
 
 ## Getting Started
 
-First, run the development server:
+Follow the steps below to run this project locally.
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/jarvis-vercel.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd jarvis-vercel
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create an environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+Add the required environment variables inside `.env.local`.
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the project in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Environment Variables
 
-## Learn More
+Create a `.env.local` file in the root directory and add the required environment variables.
 
-To learn more about Next.js, take a look at the following resources:
+Example:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If your project uses AI APIs, authentication, or external services, add the required keys inside `.env.local`.
 
-## Deploy on Vercel
+Do not push `.env`, `.env.local`, or secret API keys to GitHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Jarvis-Techie" 
+This project is deployed using Vercel.
+
+To deploy your own version:
+
+1. Push the project to GitHub
+2. Go to Vercel
+3. Import your GitHub repository
+4. Add environment variables if required
+5. Deploy the project
+
+## Files to Push to GitHub
+
+```text
+src/
+public/
+package.json
+package-lock.json
+next.config.ts
+next-env.d.ts
+tsconfig.json
+postcss.config.mjs
+eslint.config.mjs
+README.md
+.gitignore
+.env.example
+```
+
+## Files Not to Push
+
+```text
+node_modules/
+.next/
+.vercel/
+.env
+.env.local
+tsconfig.tsbuildinfo
+```
+
+## Recommended .gitignore
+
+```gitignore
+node_modules
+.next
+.vercel
+.env
+.env.local
+*.tsbuildinfo
+```
+
+## Useful Commands
+
+```bash
+npm install
+npm run dev
+npm run build
+npm start
+```
+
+## Future Improvements
+
+- Add advanced AI response generation
+- Improve voice recognition accuracy
+- Add text-to-speech responses
+- Add chat history
+- Add user authentication
+- Add dark mode support
+- Add multilingual support
+- Improve mobile responsiveness
+- Add custom assistant commands
+
+## Author
+
+**Nishith**
+
+GitHub: [Your GitHub Profile](https://github.com/YOUR-USERNAME)
+
+## License
+
+This project is open source and available under the MIT License.
