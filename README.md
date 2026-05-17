@@ -195,7 +195,7 @@ npm start
 - Add **structured job result cards** displaying job title, company, location, required skills, source link, and application status for better job search tracking.
 - Add **job application analytics** with visual charts for saved, applied, shortlisted, rejected, and interview-stage applications.
 - Currently if the user ask for job listing it only shows limited companies like anthropic , OpenAI , Microsoft , Groq , ... later I gonna integrate with all the companies.
-- Plan to integrate an MCP server with a LiveKit-based voice agent, Sarvam/Saras-style speech-to-speech translation, live monitoring, visual presentations, and personalized greeting features to build a more interactive multilingual AI assistant experience.
+- Plan to integrate an MCP server with a LiveKit-based voice agent, Sarvam/Saras-style speech-to-speech translation, live monitoring, gesture control, visual presentations, and personalized greeting features to build a more interactive multilingual AI assistant experience.
 
 ## Author
 
