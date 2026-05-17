@@ -2,6 +2,8 @@
 
 Jarvis Techie is an AI-powered voice assistant web application built with Next.js and deployed on Vercel. The app provides a simple browser-based interface where users can interact with an AI assistant using voice-based input.
 
+<img width="1907" height="1075" alt="Screenshot 2026-05-16 211816" src="https://github.com/user-attachments/assets/46192a3f-d59f-43a4-8612-d4ffa328c956" />
+
 ## Live Demo
 
 [Visit Jarvis Techie](https://jarvis-techie.vercel.app/)
